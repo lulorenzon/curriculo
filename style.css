@@ -6,6 +6,19 @@
   list-style: none;
 }
 
+.image:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.span:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.about p:hover {
+  background-color: #f1f1f1;
+ 
+}
+
 body {
   display: flex;
   justify-content: safe center;
@@ -65,6 +78,7 @@ body {
 
 #profile img {
   width: 112px;
+  border-radius: 77px;
 }
 
 #profile p {
